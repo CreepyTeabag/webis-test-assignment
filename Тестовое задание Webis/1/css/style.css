@@ -1,0 +1,38 @@
+body {
+  background-color: #313131;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.slider img {
+  max-height: 100%;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+
+.f-carousel {
+  --f-button-width: 50px;
+  --f-button-height: 50px;
+
+  --f-button-svg-width: 30px;
+  --f-button-svg-height: 30px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(19, 27, 39);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%),
+    0 3px 7px -3px rgb(0 0 0 / 30%);
+
+  --f-button-bg: #bed3ff;
+  --f-button-hover-bg: #224696;
+  --f-button-active-bg: #5d91ff;
+}
