@@ -1,24 +1,3 @@
-body {
-  background-color: #313131;
-}
-.slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-}
-.slider img {
-  max-height: 100%;
-}
-.slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100%;
-  overflow: hidden;
-}
-
 .f-carousel {
   --f-button-width: 50px;
   --f-button-height: 50px;
@@ -35,4 +14,44 @@ body {
   --f-button-bg: #bed3ff;
   --f-button-hover-bg: #224696;
   --f-button-active-bg: #5d91ff;
+}
+
+body {
+  background-color: #313131;
+}
+.slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.slider img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hidden {
+  display: none;
+  max-width: 90%;
+}
+div.image-big {
+  max-height: 90%;
+}
+div.image-big img {
+  max-width: 100%;
+  max-height: 70vw;
 }
